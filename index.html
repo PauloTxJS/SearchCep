@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search CEP</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Search Cep</h1>
+        <form>
+            <div class="form-group">
+                <label for="cep">CEP</label>
+                <input type="text" class="form-control" autofocus maxlength="9" placeholder="Ex.: 00000-000" id="cep">               
+            </div>
+            <div class="form-group">
+                <label for="logradouro">LOGRADOURO</label>
+                <input type="text" class="form-control" placeholder=" Ex.: Rua do Papoco S/N" id="logradouro">               
+            </div>
+            <div class="form-group">
+                <label for="bairro">BAIRRO</label>
+                <input type="text" class="form-control" placeholder="Ex.: Pindamonhangaba" id="bairro">
+            </div>
+            <div class="form-group">
+                <label for="localidade">LOCALIDADE</label>
+                <input type="text" class="form-control" placeholder=" Ex.: Crateus" id="localidade">
+                
+            </div>
+            <div class="form-group">
+                <label for="uf">Unidade Federativa - UF</label>
+                <input type="text" class="form-control" placeholder=" Ex.: CE" id="uf">   
+            </div>
+        </form>
+    </div>
+
+    <script src="src/js/main.js"></script>
+</body>
+</html>
